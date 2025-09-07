@@ -1,0 +1,26 @@
+{
+  "id": "rcp_tomatenorzo_bimi_burrata",
+  "title": "Tomatenorzo met geroosterde bimi en burrata",
+  "tags": ["dinner", "vegetarian", "pasta"],
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 30 },
+  "ingredients": [
+    { "product_id": "prd_tomatoes_canned", "display": "400 g tomatenblokjes", "quantity": 400, "unit": "g", "section": "canned" },
+    { "product_id": "prd_bimi", "display": "200 g bimi", "quantity": 200, "unit": "g", "section": "produce" },
+    { "product_id": "prd_burrata", "display": "2 stuks burrata", "quantity": 2, "unit": "piece", "section": "dairy" },
+    { "product_id": "prd_cherry_tomato", "display": "400 g cherrytomaatjes", "quantity": 400, "unit": "g", "section": "produce" },
+    { "product_id": "prd_red_onion", "display": "1 stuk rode ui", "quantity": 1, "unit": "piece", "section": "produce" },
+    { "product_id": "prd_orzo", "display": "275 g orzo", "quantity": 275, "unit": "g", "section": "dry" },
+    { "product_id": "prd_garlic", "display": "2 teentjes knoflook", "quantity": 2, "unit": "clove", "section": "produce" },
+    { "product_id": "prd_olive_oil", "display": "3 el olijfolie", "quantity": 3, "unit": "tbsp", "section": "oil" },
+    { "product_id": "prd_black_pepper", "display": "zwarte peper", "quantity": 1, "unit": "tsp", "notes": "to taste", "section": "spices" },
+    { "product_id": "prd_salt", "display": "zout", "quantity": 1, "unit": "tsp", "notes": "to taste", "section": "spices" }
+  ],
+  "steps": [
+    "Verwarm de oven voor op 200°C. Verdeel de bimi over een bakplaat met bakpapier, besprenkel met 1 el olijfolie en rooster 15 minuten tot gaar.",
+    "Pel de rode ui en knoflook, snij fijn. Halveer de cherrytomaatjes. Verhit 2 el olijfolie in een ruime koekenpan en fruit de ui en knoflook aan.",
+    "Voeg de cherrytomaatjes en de tomatenblokjes toe en bak 2 minuten mee. Voeg de orzo en 600 ml water toe, roer goed en laat 12–15 minuten zachtjes sudderen. Voeg eventueel extra water voor meer smeuïgheid.",
+    "Breng de orzo op smaak met peper en zout. Verdeel samen met de bimi over de borden. Laat de burrata uitlekken, halveer en serveer bovenop de orzo."
+  ],
+  "flags": { "freezer_friendly": false, "quick": false }
+}
