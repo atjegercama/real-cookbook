@@ -1,0 +1,7 @@
+{
+  "as_of": "2025-09-07T12:00:00Z",
+  "items": [
+    { "product_id": "prd_onion", "quantity": 3, "unit": "piece", "location": "pantry" },
+    { "product_id": "prd_spinach_fresh", "quantity": 200, "unit": "g", "location": "fridge", "expiry": "2025-09-09" }
+  ]
+}
