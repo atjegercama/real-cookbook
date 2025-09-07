@@ -1,0 +1,26 @@
+{
+  "units": {
+    "g": { "canonical": "g" },
+    "kg": { "canonical": "g", "factor": 1000 },
+    "ml": { "canonical": "ml" },
+    "l": { "canonical": "ml", "factor": 1000 },
+    "tsp": { "canonical": "tsp" },
+    "tbsp": { "canonical": "tsp", "factor": 3 }, 
+    "cup": { "canonical": "ml", "factor": 240 },
+    "slice": { "canonical": "piece" },
+    "piece": { "canonical": "piece" },
+    "clove": { "canonical": "piece" },
+    "can": { "canonical": "ml", "factor": 400 } 
+  },
+
+  "product_overrides": {
+    "prd_onion": { "canonical_unit": "g", "factor": 100 }, 
+    "prd_carrot": { "canonical_unit": "g", "factor": 100 },
+    "prd_courgette": { "canonical_unit": "g", "factor": 200 },
+    "prd_egg": { "canonical_unit": "g", "factor": 60 },
+    "prd_garlic": { "canonical_unit": "g", "factor": 5 },
+    "prd_coconut_milk_canned": { "canonical_unit": "ml", "factor": 400 },
+    "prd_chicken_thigh_fillet": { "canonical_unit": "g", "factor": 120 },
+    "prd_chicken_breast": { "canonical_unit": "g", "factor": 150 }
+  }
+}
