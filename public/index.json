@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "updated": "2025-09-07T12:00:00Z",
+  "pantry": "https://atjegercama.github.io/real-cookbook/data/pantry/pantry_current.json",
+  "recipes_index": "https://atjegercama.github.io/real-cookbook/data/recipes/",
+  "catalogs": {
+    "products": "https://atjegercama.github.io/real-cookbook/data/catalogs/products.json"
+  }
+}
