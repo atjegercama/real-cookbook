@@ -6,19 +6,27 @@ on:
       - 'data/recipes/**'
       - 'public/**'
       - '.github/workflows/publish.yml'
+
+permissions:
+  contents: write   # 👈 important
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0           # safe for commits
+          persist-credentials: true # default, but make explicit
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - run: node scripts/build_recipes_index.js
       - name: Commit updated indices
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/recipes_index.json public/index.json || true
           git commit -m "Update public indices" || echo "No changes"
+          # ensure remote uses the token
           git push
