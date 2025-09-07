@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": "prd_onion",
+      "name": "Onion",
+      "section": "produce",
+      "synonyms": ["yellow onion", "red onion"],
+      "default_unit": "piece"
+    },
+    {
+      "id": "prd_spinach_fresh",
+      "name": "Fresh spinach",
+      "section": "produce",
+      "default_unit": "g"
+    },
+    {
+      "id": "prd_kidney_beans",
+      "name": "Kidney beans (canned)",
+      "section": "canned",
+      "default_unit": "g"
+    },
+    {
+      "id": "prd_chopped_tomatoes",
+      "name": "Chopped tomatoes (canned)",
+      "section": "canned",
+      "default_unit": "g"
+    },
+    {
+      "id": "prd_lean_beef",
+      "name": "Lean minced beef",
+      "section": "meat",
+      "default_unit": "g"
+    }
+  ]
+}
