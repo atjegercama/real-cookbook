@@ -1,35 +1,72 @@
 {
   "products": [
-    {
-      "id": "prd_onion",
-      "name": "Onion",
-      "section": "produce",
-      "synonyms": ["yellow onion", "red onion"],
-      "default_unit": "piece"
-    },
-    {
-      "id": "prd_spinach_fresh",
-      "name": "Fresh spinach",
-      "section": "produce",
-      "default_unit": "g"
-    },
-    {
-      "id": "prd_kidney_beans",
-      "name": "Kidney beans (canned)",
-      "section": "canned",
-      "default_unit": "g"
-    },
-    {
-      "id": "prd_chopped_tomatoes",
-      "name": "Chopped tomatoes (canned)",
-      "section": "canned",
-      "default_unit": "g"
-    },
-    {
-      "id": "prd_lean_beef",
-      "name": "Lean minced beef",
-      "section": "meat",
-      "default_unit": "g"
-    }
+    { "id": "prd_onion", "name": "Onion", "section": "produce", "default_unit": "piece", "synonyms": ["yellow onion", "red onion", "white onion", "ui"] },
+    { "id": "prd_garlic", "name": "Garlic", "section": "produce", "default_unit": "clove", "synonyms": ["garlic cloves"] },
+    { "id": "prd_garlic_powder", "name": "Garlic powder", "section": "spices", "default_unit": "tsp", "synonyms": ["knoflookpoeder"] },
+    { "id": "prd_carrot", "name": "Carrot", "section": "produce", "default_unit": "g", "synonyms": ["wortel", "wortels"] },
+    { "id": "prd_bell_pepper", "name": "Bell pepper", "section": "produce", "default_unit": "piece", "synonyms": ["capsicum", "red pepper", "green pepper", "yellow pepper", "paprika"] },
+    { "id": "prd_courgette", "name": "Courgette (zucchini)", "section": "produce", "default_unit": "piece", "synonyms": ["zucchini"] },
+    { "id": "prd_tomato_fresh", "name": "Tomato (fresh)", "section": "produce", "default_unit": "g", "synonyms": ["fresh tomato", "roma tomato"] },
+    { "id": "prd_tomatoes_canned", "name": "Tomatoes (canned, chopped)", "section": "canned", "default_unit": "g", "synonyms": ["canned tomatoes", "chopped tomatoes"] },
+    { "id": "prd_tomato_paste", "name": "Tomato paste", "section": "canned", "default_unit": "tbsp", "synonyms": ["tomatenpuree"] },
+    { "id": "prd_potato", "name": "Potato", "section": "produce", "default_unit": "g" },
+    { "id": "prd_rice_white", "name": "Rice (white)", "section": "dry", "default_unit": "g", "synonyms": ["long grain rice", "basmati rice"] },
+    { "id": "prd_gnocchi", "name": "Gnocchi", "section": "dry", "default_unit": "g" },
+    { "id": "prd_pasta_spaghetti", "name": "Spaghetti", "section": "dry", "default_unit": "g", "synonyms": ["pasta"] },
+    { "id": "prd_bread", "name": "Bread", "section": "bakery", "default_unit": "slice" },
+    { "id": "prd_egg", "name": "Egg", "section": "dairy", "default_unit": "piece", "synonyms": ["eggs"] },
+    { "id": "prd_milk", "name": "Milk", "section": "dairy", "default_unit": "ml" },
+    { "id": "prd_butter", "name": "Butter", "section": "dairy", "default_unit": "g" },
+    { "id": "prd_cheddar", "name": "Cheddar cheese", "section": "dairy", "default_unit": "g", "synonyms": ["cheese"] },
+    { "id": "prd_bimi", "name": "Bimi (baby broccoli)", "section": "produce", "default_unit": "g", "synonyms": ["baby broccoli"] },
+    { "id": "prd_burrata", "name": "Burrata", "section": "dairy", "default_unit": "piece" },
+    { "id": "prd_cherry_tomato", "name": "Cherry tomato", "section": "produce", "default_unit": "g", "synonyms": ["cherrytomaat", "cherrytomaatjes"] },
+    { "id": "prd_red_onion", "name": "Red onion", "section": "produce", "default_unit": "piece", "synonyms": ["rode ui"] },
+    { "id": "prd_orzo", "name": "Orzo (pasta)", "section": "dry", "default_unit": "g" }
+    { "id": "prd_sweet_point_pepper", "name": "Sweet pointed pepper", "section": "produce", "default_unit": "piece", "synonyms": ["puntpaprika"] },
+    { "id": "prd_red_pepper", "name": "Red bell pepper", "section": "produce", "default_unit": "piece", "synonyms": ["rode paprika"] },
+    { "id": "prd_yellow_pepper", "name": "Yellow bell pepper", "section": "produce", "default_unit": "piece", "synonyms": ["gele paprika"] },
+    { "id": "prd_winter_carrot", "name": "Winter carrot (large)", "section": "produce", "default_unit": "piece", "synonyms": ["winterpeen"] },
+    { "id": "prd_italian_herbs_mix", "name": "Italian herb mix (fresh)", "section": "produce", "default_unit": "bunch", "synonyms": ["Italiaanse kruiden"] },
+    { "id": "prd_chipotle_sauce", "name": "Chipotle sauce", "section": "sauces", "default_unit": "tbsp" },
+    { "id": "prd_cottage_cheese", "name": "Cottage cheese", "section": "dairy", "default_unit": "g" },
+    { "id": "prd_pasta_pipe_rigate", "name": "Pipe rigate pasta", "section": "dry", "default_unit": "g" },
+    { "id": "prd_pancetta", "name": "Pancetta (diced)", "section": "meat", "default_unit": "g" },
+    { "id": "prd_arugula", "name": "Arugula (rucola)", "section": "produce", "default_unit": "g", "synonyms": ["rucola"] },
+    { "id": "prd_pine_nuts", "name": "Pine nuts", "section": "nuts", "default_unit": "g", "synonyms": ["pijnboompitten"] },
+    { "id": "prd_cheese_onion_baguette", "name": "Cheese-onion baguette", "section": "bakery", "default_unit": "piece", "synonyms": ["stokbrood kaas-ui"] }
+
+    { "id": "prd_olive_oil", "name": "Olive oil", "section": "oil", "default_unit": "tbsp" },
+    { "id": "prd_garlic_infused_olive_oil", "name": "Garlic-infused olive oil", "section": "oil", "default_unit": "tbsp", "synonyms": ["garlic oil (infused)"] },
+    { "id": "prd_sunflower_oil", "name": "Sunflower oil", "section": "oil", "default_unit": "tbsp", "synonyms": ["zonnebloemolie"] },
+    { "id": "prd_vegetable_oil", "name": "Vegetable oil", "section": "oil", "default_unit": "tbsp" },
+
+    { "id": "prd_salt", "name": "Salt", "section": "spices", "default_unit": "tsp", "synonyms": ["zout"] },
+    { "id": "prd_black_pepper", "name": "Black pepper", "section": "spices", "default_unit": "tsp", "synonyms": ["peper", "zwarte peper"] },
+    { "id": "prd_cumin_ground", "name": "Cumin (ground)", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_cumin_seeds", "name": "Cumin seeds", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_coriander_ground", "name": "Coriander (ground)", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_coriander_fresh", "name": "Coriander (fresh leaves)", "section": "produce", "default_unit": "cup", "synonyms": ["cilantro", "koriander"] },
+    { "id": "prd_turmeric", "name": "Turmeric (ground)", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_chili_powder", "name": "Chili powder", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_paprika", "name": "Paprika (ground)", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_cayenne", "name": "Cayenne pepper", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_cinnamon", "name": "Cinnamon (ground)", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_garam_masala", "name": "Garam masala", "section": "spices", "default_unit": "tsp" },
+    { "id": "prd_curry_powder", "name": "Curry powder", "section": "spices", "default_unit": "tbsp", "synonyms": ["kerrie", "kerriepoeder"] },
+    { "id": "prd_bay_leaf", "name": "Bay leaf", "section": "spices", "default_unit": "piece" },
+
+    { "id": "prd_chicken_breast", "name": "Chicken breast", "section": "meat", "default_unit": "g" },
+    { "id": "prd_chicken_thigh", "name": "Chicken thigh", "section": "meat", "default_unit": "g" },
+    { "id": "prd_chicken_thigh_fillet", "name": "Chicken thigh fillets", "section": "meat", "default_unit": "g" },
+    { "id": "prd_beef_minced", "name": "Minced beef", "section": "meat", "default_unit": "g", "synonyms": ["ground beef"] },
+    { "id": "prd_pork_minced", "name": "Minced pork", "section": "meat", "default_unit": "g", "synonyms": ["ground pork"] },
+    { "id": "prd_fish_fillet", "name": "Fish fillet", "section": "fish", "default_unit": "g" },
+
+    { "id": "prd_coconut_milk_canned", "name": "Coconut milk (canned)", "section": "canned", "default_unit": "ml", "synonyms": ["coconut milk tin", "kokosmelk"] },
+    { "id": "prd_stock_veg", "name": "Vegetable stock", "section": "broth", "default_unit": "ml" },
+    { "id": "prd_stock_chicken", "name": "Chicken stock", "section": "broth", "default_unit": "ml" },
+
+    { "id": "prd_curry_leaves_fresh", "name": "Curry leaves (fresh)", "section": "produce", "default_unit": "piece" }
   ]
 }
