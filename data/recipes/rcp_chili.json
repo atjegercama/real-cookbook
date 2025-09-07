@@ -1,0 +1,18 @@
+{
+  "id": "rcp_chili",
+  "title": "Weeknight Chili",
+  "tags": ["dinner", "low-salt", "freezer"],
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 25 },
+  "ingredients": [
+    { "product_id": "prd_lean_beef", "display": "400g lean minced beef", "quantity": 400, "unit": "g", "section": "meat" },
+    { "product_id": "prd_kidney_beans", "quantity": 400, "unit": "g", "notes": "drained" },
+    { "product_id": "prd_chopped_tomatoes", "quantity": 400, "unit": "g" }
+  ],
+  "steps": [
+    "Sauté onion.",
+    "Brown beef with spices.",
+    "Add tomatoes & beans; simmer 15 min."
+  ],
+  "flags": { "freezer_friendly": true, "quick": true }
+}
