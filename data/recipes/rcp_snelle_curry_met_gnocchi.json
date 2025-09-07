@@ -1,0 +1,28 @@
+{
+  "id": "rcp_snelle_curry_met_gnocchi",
+  "title": "Snelle curry met gnocchi",
+  "tags": ["dinner", "quick", "vegetarian", "curry"],
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "ingredients": [
+    { "product_id": "prd_gnocchi", "display": "800 g gnocchi", "quantity": 800, "unit": "g", "section": "dry" },
+    { "product_id": "prd_coconut_milk_canned", "display": "1 blikje kokosmelk", "quantity": 400, "unit": "ml", "notes": "1 can ≈ 400 ml" },
+    { "product_id": "prd_courgette", "display": "1 stuk courgette", "quantity": 1, "unit": "piece", "section": "produce" },
+    { "product_id": "prd_carrot", "display": "300 g wortels", "quantity": 300, "unit": "g", "section": "produce" },
+    { "product_id": "prd_onion", "display": "1 stuk ui", "quantity": 1, "unit": "piece", "section": "produce" },
+    { "product_id": "prd_tomato_paste", "display": "1 el tomatenpuree", "quantity": 1, "unit": "tbsp", "section": "canned" },
+    { "product_id": "prd_garlic_powder", "display": "1 tl knoflookpoeder", "quantity": 1, "unit": "tsp", "section": "spices" },
+    { "product_id": "prd_curry_powder", "display": "2 el kerriepoeder", "quantity": 2, "unit": "tbsp", "section": "spices" },
+    { "product_id": "prd_sunflower_oil", "display": "zonnebloemolie", "quantity": 2, "unit": "tbsp", "notes": "for frying", "section": "oil" },
+    { "product_id": "prd_salt", "display": "zout", "quantity": 1, "unit": "tsp", "notes": "to taste", "section": "spices" },
+    { "product_id": "prd_black_pepper", "display": "zwarte peper", "quantity": 1, "unit": "tsp", "notes": "to taste", "section": "spices" }
+  ],
+  "steps": [
+    "Halveer de courgette en snij samen met de wortels in plakjes. Snipper de ui.",
+    "Verhit wat zonnebloemolie in een pan en bak de gnocchi circa 10 minuten goudbruin.",
+    "Verhit ondertussen in een andere pan nog wat olie en bak de groenten circa 6 minuten beetgaar.",
+    "Voeg het kerriepoeder en de tomatenpuree toe en bak circa 1 minuut mee. Blus af met de kokosmelk en 50 ml water, roer door.",
+    "Voeg het knoflookpoeder toe en laat de saus 5–10 minuten indikken. Voeg de krokante gnocchi toe en breng op smaak met zout en peper."
+  ],
+  "flags": { "freezer_friendly": false, "quick": true }
+}
