@@ -1,0 +1,43 @@
+[
+  {
+    "id": "rcp_chili",
+    "title": "Weeknight Chili",
+    "tags": [
+      "dinner",
+      "low-salt",
+      "freezer"
+    ],
+    "href": "https://atjegercama.github.io/real-cookbook/data/recipes/rcp_chili.json"
+  },
+  {
+    "id": "rcp_paprikasaus_pasta_en_soep",
+    "title": "Pasta met paprikasaus en spekjes + geroosterde paprikasoep",
+    "tags": [
+      "dinner",
+      "meal-prep",
+      "vegetarian-option"
+    ],
+    "href": "https://atjegercama.github.io/real-cookbook/data/recipes/rcp_paprikasaus_pasta_en_soep.json"
+  },
+  {
+    "id": "rcp_snelle_curry_met_gnocchi",
+    "title": "Snelle curry met gnocchi",
+    "tags": [
+      "dinner",
+      "quick",
+      "vegetarian",
+      "curry"
+    ],
+    "href": "https://atjegercama.github.io/real-cookbook/data/recipes/rcp_snelle_curry_met_gnocchi.json"
+  },
+  {
+    "id": "rcp_tomatenorzo_bimi_burrata",
+    "title": "Tomatenorzo met geroosterde bimi en burrata",
+    "tags": [
+      "dinner",
+      "vegetarian",
+      "pasta"
+    ],
+    "href": "https://atjegercama.github.io/real-cookbook/data/recipes/rcp_tomatenorzo_bimi_burrata.json"
+  }
+]
